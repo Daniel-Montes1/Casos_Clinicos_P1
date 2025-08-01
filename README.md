@@ -38,3 +38,15 @@
     Sino
         Mostrar "Rítmico"
     Fin Si
+## Ejercicio 3: Velocidad de infusión IV
+    Mostrar " VELOCIDAD DE INFUSIÓN IV "
+    Leer dosis         
+    Leer concentracion 
+    
+    velocidad ← dosis / concentracion  
+    
+    Si velocidad > 50 Entonces
+        Mostrar "PEDIR ATENCIÓN"  / Corregido a "PEDIR" según contexto
+    Sino
+        Mostrar "Continuar"
+    Fin Si
