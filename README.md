@@ -21,3 +21,20 @@
         Defecto:
             Mostrar "NORMAL"
     Fin Segun
+## Ejercicio 2: Detección de arritmia simple
+    Mostrar " DETECCIÓN DE ARRITMIA "
+    Leer M  / Número de valores cardíacos
+    contadorFuera ← 0
+    
+    Para j ← 1 Hasta M Hacer
+        Leer frecuencia  
+        Si frecuencia < 60 O frecuencia > 100 Entonces
+            contadorFuera ← contadorFuera + 1
+        Fin Si
+    Fin Para
+    
+    Si contadorFuera > 3 Entonces
+        Mostrar "POTENCIAL ARRITMIA"
+    Sino
+        Mostrar "Rítmico"
+    Fin Si
